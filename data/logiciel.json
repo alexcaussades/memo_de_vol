@@ -1,0 +1,11 @@
+{
+    "data":{
+        "name": "Memory for Flight",
+        "version": "0.0.1",
+        "description": "logiciel for memorizing the flight",
+        "author": "Alexandre Caussades",
+        "date": "2024-08-19",
+        "licence": "MIT",
+        "repository": "https://github.com/alexcaussades/memo_de_vol"
+    }
+}

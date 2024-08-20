@@ -36,55 +36,9 @@ class Distance:
         else:
             return a
         
+    def __str__(self):
+        return f"Level of flight: {self.niveau_de_vol}, Airspeed: {self.vitesse_air}, Remaining distance: {self.distance_restante}, Preferred vario: {self.vario_preffere}"
+
         
-    def estimation_altitude(self):
-        a = (self.vario_preffere * self.taux_de_descente())
-        if a < 0:
-            return 0
-        else:
-            return a
-        
-        
-    def estimation_vitesse(self):
-        a = (self.vitesse_air + self.vario_preffere)
-        if a < 0:
-            return 0
-        else:
-            return a
-        
-    def estimation_vitesse_sol(self):
-        a = (self.vitesse_air - self.vario_preffere)
-        if a < 0:
-            return 0
-        else:
-            return a
-        
-    def estimation_distance_sol(self):
-        a = (self.vitesse_air * self.niveau_de_vol) / (60* self.estimation_vitesse_sol())
-        if a < 0:
-            return 0
-        else:
-            return a
-        
-    def estimation_temps_sol(self):
-        a = (self.vitesse_air * self.niveau_de_vol) / (60* self.estimation_vitesse_sol())
-        if a < 0:
-            return 0
-        else:
-            return a
-        
-    def estimation_altitude_sol(self):
-        a = (self.vario_preffere * self.taux_de_descente())
-        if a < 0:
-            return 0
-        else:
-            return a
-        
-    def estimation_vitesse_sol(self):
-        a = (self.vitesse_air - self.vario_preffere)
-        if a < 0:
-            return 0
-        else:
-            return a
         
         
