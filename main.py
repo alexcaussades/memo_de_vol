@@ -6,6 +6,7 @@ import datetime
 import random
 import logging
 import module.distance as distance
+import module.metar as metar
 
 # Load the configuration file
 with open("data/logiciel.json", "r") as file:
@@ -23,6 +24,7 @@ print("What's your choice for this application? ")
 print("1. Calculate the descent rate")
 print("2. Calculate the estimated time")
 print("3. VOR entry / next point")
+print("4. METAR Airport")
 print("7. Exit")
 
 choice = input("Enter your choice: ")
@@ -58,6 +60,9 @@ if choice == "3":
     if choice:
         print("The VOR entrer point is: ", vor["data"][choice])
         
+if choice == "4":
+    icao = input("Enter the ICAO: ")
+    print(metar.metar(icao))
         
     
 
