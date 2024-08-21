@@ -1,0 +1,53 @@
+{
+    "data": {
+        "metar-decript":{
+            "intensity": {
+                "-": "Light",
+                "+": "Heavy"
+            },
+            "proximity": {
+                "VC": "Vicinity"
+            },
+            "descriptor": {
+                "MI": "Shallow",
+                "PR": "Partial",
+                "BC": "Patches",
+                "DR": "Low Drifting",
+                "BL": "Blowing",
+                "SH": "Showers",
+                "TS": "Thunderstorm",
+                "FZ": "Freezing"
+            },
+            "precipitation": {
+                "DZ": "Drizzle",
+                "RA": "Rain",
+                "SN": "Snow",
+                "SG": "Snow Grains",
+                "IC": "Ice Crystals",
+                "PL": "Ice Pellets",
+                "GR": "Hail",
+                "GS": "Small Hail and/or Snow Pellets",
+                "UP": "Unknown Precipitation"
+            },
+            "obscuration": {
+                "BR": "Mist",
+                "FG": "Fog",
+                "FU": "Smoke",
+                "VA": "Volcanic Ash",
+                "DU": "Widespread Dust",
+                "SA": "Sand",
+                "HZ": "Haze",
+                "PY": "Spray"
+            },
+            "other": {
+                "SQ": "Squall",
+                "PO": "Dust/Sand Whirls",
+                "DS": "Duststorm",
+                "SS": "Sandstorm",
+                "FC": "Funnel Cloud",
+                "VA": "Volcanic Ash",
+                "TS": "Thunderstorm"
+            }
+        }
+    }
+}

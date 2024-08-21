@@ -62,7 +62,7 @@ if choice == "3":
         
 if choice == "4":
     icao = input("Enter the ICAO: ")
-    print(metar.metar(icao))
+    print(metar.Metar.decription_metar(icao))
         
     
 

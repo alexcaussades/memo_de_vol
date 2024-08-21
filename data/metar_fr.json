@@ -1,0 +1,53 @@
+{
+    "data":{
+        "metar-decript":{
+            "intensity": {
+                "-": "Légère",
+                "+": "Forte"
+            },
+            "proximity": {
+                "VC": "À proximité"
+            },
+            "descriptor": {
+                "MI": "Peu profond",
+                "PR": "Partiel",
+                "BC": "Tas",
+                "DR": "Faible dérive",
+                "BL": "Soufflant",
+                "SH": "Averses",
+                "TS": "Orage",
+                "FZ": "Gel"
+            },
+            "precipitation": {
+                "DZ": "Bruine",
+                "RA": "Pluie",
+                "SN": "Neige",
+                "SG": "Grains de neige",
+                "IC": "Cristaux de glace",
+                "PL": "Granules de glace",
+                "GR": "Grêle",
+                "GS": "Petite grêle et/ou granules de neige",
+                "UP": "Précipitation inconnue"
+            },
+            "obscuration": {
+                "BR": "Brume",
+                "FG": "Brouillard",
+                "FU": "Fumée",
+                "VA": "Cendres volcaniques",
+                "DU": "Poussière généralisée",
+                "SA": "Sable",
+                "HZ": "Brume sèche",
+                "PY": "Brouillard d'eau"
+            },
+            "other": {
+                "SQ": "Rafale",
+                "PO": "Tours de poussière/sable",
+                "DS": "Tempête de poussière",
+                "SS": "Tempête de sable",
+                "FC": "Tuba",
+                "VA": "Cendres volcaniques",
+                "TS": "Orage"
+            }
+        }
+    }
+}
