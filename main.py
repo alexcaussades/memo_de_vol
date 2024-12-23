@@ -8,7 +8,7 @@ import logging
 import module.distance as distance
 import module.metar as metar
 
-# hello v2
+# hello v21
 # Load the configuration file
 with open("data/logiciel.json", "r") as file:
     logiciel = json.load(file)
